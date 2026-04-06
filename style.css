@@ -26,9 +26,10 @@ height: 60px;
 font-size: 24px;
 padding: 10px;
 margin-bottom: 15px;
-border: 1px solid #030303;
+border: 1px solid black;
 border-radius: 8px;
 box-sizing: border-box;
+background-color: black;
 
 }
 .buttons{
@@ -64,17 +65,17 @@ background: #b2beb5;
     background: #b2beb5;
 }
 .division{
-    background: #ff8c00;
+    background: #ff9500;
 }
 .multiplication{
-   background: #ff8c00; 
+   background: #ff9500; 
 }
 .minus{
-    background: #ff8c00;
+    background: #ff8500;
 }
 .plus{
-    background: #ff8c00;
+    background: #ff9500;
 }
 .equals{
-    background: #ff8c00;
+    background: #ff9500;
 }
