@@ -21,3 +21,12 @@ function calculate(){
 function deleteLast(){
     display.value= display.value.slice(0, -1);
 }
+function toggleSign(){
+  let display = document.getElementById("display");
+  if (display.value.startsWith("-")) {
+    display.value = display.value.slice(1); // remove minus
+  }
+else {
+  display.value = "-" + display.value; // add minus
+}
+  }
