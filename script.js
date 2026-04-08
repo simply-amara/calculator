@@ -30,3 +30,9 @@ else {
   display.value = "-" + display.value; // add minus
 }
   }
+  function percentage() {
+let display = document.getElementById("display");
+if (display.value ==="") return;
+display.value = parseFloat(display.value) / 100;
+
+  }
